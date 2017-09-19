@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icons-wgt" horiz-adv-x="1000" >
+<font-face font-family="icons-wgt" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ac" unicode="&#x31;" d="m500-150c124 0 238 45 325 120l-20 45-24 52-247 534-37 0-32 0-1 0-207-450-39-83c-72 72-117 172-117 282 0 221 179 399 399 399 40 0 79-6 115-17l38 94c-48 16-100 24-153 24-276 0-500-224-500-500 0-276 224-500 500-500m0 275c48 0 92 15 129 40l2-5 0 0 4-7 31-70 35-78c-59-34-128-54-201-54-74 0-144 20-203 55l62 134 12 26c36-26 81-41 129-41m87 132c-23-21-53-34-87-34-34 0-64 13-87 34l2 5 2 4 82 191 32-72 51-118 5-10z" horiz-adv-x="990" />
+<glyph glyph-name="comment" unicode="&#x63;" d="m700 700q42 0 71-29t29-71l0-350q0-40-29-70t-71-30l-200 0 0-150-200 150-200 0q-40 0-70 30t-30 70l0 350q0 42 30 71t70 29l600 0z" horiz-adv-x="800" />
+</font>
+</defs>
+</svg>
