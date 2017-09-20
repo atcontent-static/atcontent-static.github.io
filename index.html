@@ -64,7 +64,7 @@
             <div class="b-header__right">
 
                     <div class="b-header__item">
-                        <a href="javascript:" class="b-btn b-btn_small b-btn_service" data-role="signUpInPopup" data-initial="signin" data-text="" data-header="Sign in to your AtContent account">Sign In</a>
+                        <a href="javascript:" class="b-btn b-btn_small b-btn_service" data-role="signUpInPopup" data-initial="signin" data-text="" data-header="No Longer Available">Sign In</a>
                     </div>
             </div>
         </div>
@@ -85,27 +85,18 @@
                         Grow your audience and traffic with just a few clicks. Easily repost<br>
                         content via relevant blogs, across all blogging platforms!
                     </p>
+
+                    <p class="b-subtitle">
+                            
+                                                            We were proud to serve over 
+                                                                    26,000 publishers and bloggers, 
+                                                                    <br />and over 30,000,000 online readers.<br /><br />
+                                                                    Unfortunately, the service is no longer available and <br />
+                                                                    this website represents a static version of the service <br /> for archive records.
+                                                        </p>
                 </header>
 
-                <div class="b-main-top__auth">
-
-<form  method="post" class="fieldset fieldsetBigText" id="toolsForm" data-role="SignUp">
-    <output class="toolsAdd"></output>
-            <input type="hidden" name="utmSource" value="Main page">
-            <input type="email" data-type="email" name="email" id="toolsForm_email" required placeholder="Email">
-            <input type="password" name="password" value="" id="toolsForm_password" pattern="^.{6,}$" title="6 characters and more" required placeholder="Password (6 characters and more)">
-                <input type="text" name="nickname" id="toolsForm_nickname" pattern="^[a-zA-Z0-9._\- ]*$" title="Alphabet, spaces and digits only" required placeholder="Username (Alphabet, spaces and digits only)">
-        
-    <button type="submit" class="b-btn b-btn_large b-btn_cta button-size-big button-color-red b-btn_roomy">
-Get Started    </button>
-</form>                        <p class="g-center-align">or</p>
-
-<p>
-    <button type="button" class="b-btn b-btn_facebook b-btn_small b-btn_roomy" data-role="fbSignIn" data-form="toolsForm"   >Connect with Facebook</button>
-    <button type="button" class="b-btn b-btn_gplus b-btn_small b-btn_roomy" data-role="gpSignIn" data-form="toolsForm"   >Connect with Google</button>
-</p>                        <p class="g-center-align">It’s free to use</p>
-
-                </div>
+      
             </div>
         </div>
     </div>
@@ -525,15 +516,32 @@ Get Started    </button>
 </p>
     </script>
     <script type="text/template" id="signUpInPopup">
-        <h3 id="signUpInPopup_hdl">Archive</h3>
-        <p id="signUpInPopup_text">We were proud to serve over 26,000 publishers and bloggers, and over 30,000,000 online readers. 
-            Unfortunately, the service is no longer available and this website represents a static version of the service for archive records.</p>
+        <h3 id="signUpInPopup_hdl">Create a free account</h3>
+        <p id="signUpInPopup_text">Or sign in to your existing AtContent account.</p>
 
 <form action="/" method="post" id="signUpInPopupForm" class="fieldset fieldsetBigText" data-role="SignUpIn" data-initial="signup">
+    <output class="toolsAdd"></output>
     
+    <div id="signUpInPopupForm_signInPart"   style="display: none"    >
+        <footer class="b-modal-footer">
+            <button type="submit" class="b-btn b-btn_primary button-color-green">Sign in</button>
+            <span class="fieldsetNote"><a href="javascript:void(0);" class="g-dashed dashed" data-role="signTypeToggle">Sign up</a></span>
+            <span class="fieldsetNote"><a href="/ResetPassword/" target="_blank">I forgot my password</a></span>
+        </footer>
+    </div>
+    <div id="signUpInPopupForm_signUpPart" >
+                <p>We were proud to serve over 
+                    26,000 publishers and bloggers, and over 30,000,000 
+                    online readers.</p>
+                    <p>Unfortunately, the service is no longer available and 
+                    this website represents a static version of the service for archive records.</p>
+
+    </div>
 </form>
 
+
     </script>
+
 
 
 
